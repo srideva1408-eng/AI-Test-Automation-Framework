@@ -1,0 +1,15 @@
+[
+  {
+    "username": "customer2@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "expectedproductname" : "Tape Measure 7.5m"
+    
+  },
+
+  {
+    "username": "admin@practicesoftwaretesting.com",
+    "password": "welcome00a1",
+    "expectedproductname" : "Tape Measure 7.5m"
+    
+  }
+]

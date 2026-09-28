@@ -1,0 +1,23 @@
+{
+  "name": "ai-test-automation-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e:int": "TEST_ENV=int npx playwright test tests/e2e --reporter=line,allure-playwright",
+    "e2e:uat": "TEST_ENV=uat npx playwright test tests/e2e/purchase-flow.data-driven.spec.js",
+    "e2e:preprod": "TEST_ENV=preprod npx playwright test tests/e2e --reporter=line,allure-playwright"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.13.0",
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9"
+  }
+}
