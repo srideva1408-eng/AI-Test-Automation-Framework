@@ -41,7 +41,7 @@ test("Login through API", async () => {
 
 //Add to cart
 
-test.only("API Flow Add to Cart", async () => {
+test("API Flow Add to Cart", async () => {
   const apiContext = await request.newContext();
 
   // 1. Login
