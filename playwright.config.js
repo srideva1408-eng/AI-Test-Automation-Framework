@@ -26,7 +26,7 @@ module.exports = defineConfig({
   reporter: "html",
 
   use: {
-    headless: false,
+    headless: true,
     baseURL: environmentConfig[environment].baseURL,
     trace: "on-first-retry",
   },
